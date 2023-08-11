@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=IBM+Plex+Sans+Condensed:wght@700&family=Khula:wght@800&family=Padauk:wght@400;700&family=Pridi:wght@400;500;600;700&family=Rubik+Mono+One&display=swap');
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+
+
+
+
+
+
+
+
+.root {
+    --primary: #00e0ff;
+    --secondary: #10316b;
+    --danger: #ff0000;
+    --dark: #00112c;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Pridi', 'Londrina Solid', 'padauk', sans-serif;
+}
+
+body {
+    padding: 20px;
+    background-image: repeating-linear-gradient(333deg, hsla(119, 47%, 93%, 0.05) 0px, hsla(119, 47%, 93%, 0.05) 1px, transparent 1px, transparent 11px, hsla(119, 47%, 93%, 0.05) 11px, hsla(119, 47%, 93%, 0.05) 12px, transparent 12px, transparent 32px), repeating-linear-gradient(45deg, hsla(119, 47%, 93%, 0.05) 0px, hsla(119, 47%, 93%, 0.05) 1px, transparent 1px, transparent 11px, hsla(119, 47%, 93%, 0.05) 11px, hsla(119, 47%, 93%, 0.05) 12px, transparent 12px, transparent 32px), repeating-linear-gradient(135deg, hsla(119, 47%, 93%, 0.05) 0px, hsla(119, 47%, 93%, 0.05) 1px, transparent 1px, transparent 11px, hsla(119, 47%, 93%, 0.05) 11px, hsla(119, 47%, 93%, 0.05) 12px, transparent 12px, transparent 32px), repeating-linear-gradient(0deg, hsla(119, 47%, 93%, 0.05) 0px, hsla(119, 47%, 93%, 0.05) 1px, transparent 1px, transparent 11px, hsla(119, 47%, 93%, 0.05) 11px, hsla(119, 47%, 93%, 0.05) 12px, transparent 12px, transparent 32px), repeating-linear-gradient(90deg, hsla(119, 47%, 93%, 0.05) 0px, hsla(119, 47%, 93%, 0.05) 1px, transparent 1px, transparent 11px, hsla(119, 47%, 93%, 0.05) 11px, hsla(119, 47%, 93%, 0.05) 12px, transparent 12px, transparent 32px), linear-gradient(90deg, rgb(130, 26, 221), rgb(63, 178, 202));
+}
+
+.title {
+    margin-bottom: 20px;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-weight: 800;
+    background: linear-gradient(to right, #4a37a9 1%, #9b2222 3%, #1adf0c 4%, rgba(183, 11, 226, 255) 8%, rgba(39, 189, 175, 255) 10%, #05e6a2 12%, #e7eb14 15%, #2327a4 24%, #00bfff 59%, #d4ff00 78%, #000000 93%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    text-shadow: 2px 2px linear-gradient(to right, #4a37a9 1%, #9b2222 3%, #1adf0c 4%, rgba(183, 11, 226, 255) 8%, rgba(39, 189, 175, 255) 10%, #05e6a2 12%, #e7eb14 15%, #2327a4 24%, #00bfff 59%, #d4ff00 78%, #000000 93%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    ;
+
+
+}
+
+.box {
+    margin-bottom: 0px;
+    border: 3px solid black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.sub-title {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.colors {
+    background-color: rgb(229, 3, 40);
+    color: #0019403b;
+    background-image: linear-gradient(to right, red, green, blue);
+}
+
+.btn {
+    font-family: 'Concert One', sans-serif;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 15px;
+    text-decoration: none;
+
+}
+
+.btn-primary {
+    background-color: #00e0ff;
+    color: white;
+    border: 2px solid #00e0ff;
+}
+
+.btn-secondary {
+    background-color: #10316b;
+    color: white;
+    border: 2px solid #10316b;
+}
+
+.btn-danger {
+    background-color: #ff0000;
+    color: white;
+    border: 2px solid #ff0000;
+}
+
+.btn-dark {
+    background-color: #00112c;
+    color: white;
+    border: 2px solid #00112c;
+}
+
+.btn-icon {
+    width: 40.4px;
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: #88bef5;
+    border: 2px solid #88bef5;
+    color: white;
+}
+
+.btn-icon:hover {
+    background-color: #88bef5;
+    border: 2px solid #88bef5;
+    color: white;
+}
+
+.btn-outline-primary {
+    border: 2px solid #00e0ff;
+    color: #00e0ff;
+}
+
+.btn-outline-secondary {
+    border: 2px solid #10316b;
+    color: #10316b;
+}
+
+.btn-outline-danger {
+    border: 2px solid #ff0000;
+    color: #ff0000;
+}
+
+.btn-outline-dark {
+    border: 2px solid #00112c;
+    color: #00112c;
+}
+
+.rounded-circle {
+    border-radius: 50%;
+}
+
+.rounded-pill {
+    border-radius: 40px;
+}
