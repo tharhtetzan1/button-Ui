@@ -3,12 +3,6 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
 
 
-
-
-
-
-
-
 .root {
     --primary: #00e0ff;
     --secondary: #10316b;
@@ -24,6 +18,7 @@
 
 body {
     padding: 20px;
+    
     background-image: repeating-linear-gradient(333deg, hsla(119, 47%, 93%, 0.05) 0px, hsla(119, 47%, 93%, 0.05) 1px, transparent 1px, transparent 11px, hsla(119, 47%, 93%, 0.05) 11px, hsla(119, 47%, 93%, 0.05) 12px, transparent 12px, transparent 32px), repeating-linear-gradient(45deg, hsla(119, 47%, 93%, 0.05) 0px, hsla(119, 47%, 93%, 0.05) 1px, transparent 1px, transparent 11px, hsla(119, 47%, 93%, 0.05) 11px, hsla(119, 47%, 93%, 0.05) 12px, transparent 12px, transparent 32px), repeating-linear-gradient(135deg, hsla(119, 47%, 93%, 0.05) 0px, hsla(119, 47%, 93%, 0.05) 1px, transparent 1px, transparent 11px, hsla(119, 47%, 93%, 0.05) 11px, hsla(119, 47%, 93%, 0.05) 12px, transparent 12px, transparent 32px), repeating-linear-gradient(0deg, hsla(119, 47%, 93%, 0.05) 0px, hsla(119, 47%, 93%, 0.05) 1px, transparent 1px, transparent 11px, hsla(119, 47%, 93%, 0.05) 11px, hsla(119, 47%, 93%, 0.05) 12px, transparent 12px, transparent 32px), repeating-linear-gradient(90deg, hsla(119, 47%, 93%, 0.05) 0px, hsla(119, 47%, 93%, 0.05) 1px, transparent 1px, transparent 11px, hsla(119, 47%, 93%, 0.05) 11px, hsla(119, 47%, 93%, 0.05) 12px, transparent 12px, transparent 32px), linear-gradient(90deg, rgb(130, 26, 221), rgb(63, 178, 202));
 }
 
@@ -32,15 +27,11 @@ body {
     font-family: 'Rubik Mono One', sans-serif;
     font-weight: 800;
     background: linear-gradient(to right, #4a37a9 1%, #9b2222 3%, #1adf0c 4%, rgba(183, 11, 226, 255) 8%, rgba(39, 189, 175, 255) 10%, #05e6a2 12%, #e7eb14 15%, #2327a4 24%, #00bfff 59%, #d4ff00 78%, #000000 93%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 
     text-shadow: 2px 2px linear-gradient(to right, #4a37a9 1%, #9b2222 3%, #1adf0c 4%, rgba(183, 11, 226, 255) 8%, rgba(39, 189, 175, 255) 10%, #05e6a2 12%, #e7eb14 15%, #2327a4 24%, #00bfff 59%, #d4ff00 78%, #000000 93%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     ;
-
-
 }
 
 .box {
